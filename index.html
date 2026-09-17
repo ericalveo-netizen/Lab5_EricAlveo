@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Eric Alveo / 8-1032-304">
+        <meta name="description" content="Página web de reproducción de videos">
+
+        <title> Mi video - MiTube</title>
+        <link rel="stylesheet" href="styles.css">
+        
+        <style>
+          h1{
+            color: blue;
+          }
+        </style>
+    </head>
+
+    <body>
+           <header>
+
+        <a href="#">
+            <img src="logo.png" alt="Logo de MiTube" width="120">
+        </a>
+
+        <form action="#" role="search">
+            <input type="search" name="q" placeholder="Buscar" required>
+            <button type="submit" class="btn">Buscar</button>
+        </form>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link" href="#">Inicio</a></li>
+                <li><a class="nav-link" href="#">Suscripciones</a></li>
+                <li><a class="nav-link" href="#">Mi biblioteca</a></li>
+            </ul>
+        </nav>
+
+    </header>
+       <main>
+
+        <section id="video-player">
+                <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/rAr3-Pn9yRI"
+                title="YouTube video player"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               referrerpolicy="strict-origin-when-cross-origin"
+               allowfullscreen>
+             </iframe> 
+        
+
+        <h1>Mi primer video en Mitube</h1>
+            <p>
+            <span>1,250 vistas</span> • 
+            Publicado el <time datetime="2026-08-20">20 de agosto de 2026</time>
+        </p>
+              
+        <div>
+            <img src="avatar.jpg" alt="Avatar del canal" width="48">
+            <p>Mi canal</p>
+             <button type="button" class="btn">Suscribirse</button>
+
+        </div>
+
+         <p>
+            En este video disfrutaremos de una canción musical presentada en nuestra plataforma Mitube.
+        </p>
+        
+        </section>
+        <section>
+  <h2>Comentarios</h2>
+
+  <form action="#">
+    <label for="comentario">Agrega un comentario</label>
+    <textarea id="comentario" name="comentario" rows="3" placeholder="Agrega un comentario público..." required></textarea>
+    <button type="submit" class="btn">Comentar</button>
+  </form>
+
+  <article>
+    <img src="avatar1.jpg" alt="Avatar de juan" width="40">
+    <span>Usuario1</span>
+    <time datetime="2026-08-21">21 de agosto de 2026</time>
+    <p>Excelente video</p>
+  </article>
+
+  <article>
+    <img src="avatar2.jpg" alt="Avatar de luis" width="40">
+    <span>Usuario2</span>
+    <time datetime="2026-08-21">21 de agosto de 2026</time>
+    <p>Me sirvió muchísimo, gracias por compartirlo.</p>
+  </article>
+
+  <article>
+    <img src="avatar3.jpg" alt="Avatar de messi" width="40">
+    <span>usuario3</span>
+    <time datetime="2026-08-22">22 de agosto de 2026</time>
+    <p>Buen tema</p>
+  </article>
+</section>
+
+       </main>
+       <aside>
+  <h2>Videos sugeridos</h2>
+
+  <article class="card">
+    <a href="#">
+      <img src="thumb1.jpg" alt="Miniatura del video 1" width="168">
+      <h3> naturaleza bonita</h3>
+    </a>
+    <p>naturaleza al aire</p>
+  </article>
+
+  <article class="card">
+    <a href="#">
+      <img src="thumb2.jpg" alt="Miniatura del video 2" width="168">
+      <h3>animla captado en camara</h3>
+    </a>
+    <p>animals</p>
+  </article>
+
+  <article class="card">
+    <a href="#">
+      <img src="thumb3.jpg" alt="Miniatura del video 3" width="168">
+      <h3>video de pizza</h3>
+    </a>
+    <p>comida rica</p>
+  </article>
+
+</aside id="sugeridos">
+
+  <footer id="pie">
+  <ul>
+    <li><a href="#">Acerca de</a></li>
+    <li><a href="#">Prensa</a></li>
+    <li><a href="#">Copyright</a></li>
+    <li><a href="#">Términos</a></li>
+    <li><a href="#">Privacidad</a></li>
+  </ul>
+  <p>&copy; 2026 MiTube</p>
+</footer>
+         
+    </body>
+</html>
